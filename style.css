@@ -70,6 +70,14 @@ p{
 .col1{
 flex-basis: 500px;
 }
+@media screen and (max-width: 1380px) {
+    .col1{
+        flex-basis: 450px;
+    }
+    .col2{
+        flex-basis: 400px;
+    }
+  }
 
 .col2{
     flex-basis: 650px;
