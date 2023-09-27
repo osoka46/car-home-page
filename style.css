@@ -36,13 +36,11 @@ p{
     align-content: center;
     align-items: center;
 }
-
 .navbar ul li a{
     color: #fff;
     text-decoration: none;
     transition: ease 0.5s;
 }
-
 .navbar ul li a:hover{
     color: #000;
 }
@@ -50,7 +48,61 @@ p{
     list-style-type: none;
     display: flex;
     font-size: 30px;
-    gap: 20px;
+    column-gap: 15px;
     justify-items: start;
 }
+.main{
+   display: flex;
+   flex-flow: row wrap;
+   justify-content: space-between;
+   align-items: center;
+   height: 85%;
+   column-gap: 10px;
+}
+
+.cards .card{
+    width: 200px;
+    background-size: cover;
+    background-position: center;
+
+}
+
+
+
+.cards .card1{
+    background-image: url(./images/pic-1.png);
+}
+.cards .card2{
+    background-image: url(./images/pic-2.png);
+}
+.cards .card3{
+    background-image: url(./images/pic-3.png);
+}
+.cards .card4{
+    background-image: url(./images/pic-4.png);
+}
+h1{
+    color: #fff;
+    font-size: 100px;
+}
+.btn a{
+    text-decoration: none;
+    padding: 20px 20px;
+    font-size: 12px;    
+}
+.btn a:hover{
+    color: #fff;
+}
+.btn{
+    cursor: pointer;
+    margin-top: 30px;
+    border-radius: 20px;
+    border: 1px solid red;
+
+}
+.btn:hover{
+    transition: ease 0.7s;
+    background-color: #000;
+}
+
 
