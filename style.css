@@ -10,10 +10,13 @@
 html, body{
     margin: 0;
     height: 100%;
+    width: 100%;
     background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(./images/bg.png);
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
+    
+
 }
 
 
@@ -65,7 +68,7 @@ p{
 
 }
 .col1{
-flex-basis: 40px;
+flex-basis: 500px;
 }
 
 .col2{
@@ -89,6 +92,7 @@ flex-basis: 40px;
     border: 1px solid red;
     transition: ease 0.5s;
     padding: 10px;
+    position: relative;
 
 }
 .card:hover{
@@ -96,9 +100,12 @@ flex-basis: 40px;
     filter: grayscale(70%);
     transform: scale(1.1);
 }
-
-
-
+.card-header{
+    background-color: rgba(0, 0, 0, 0.6);
+    color: #fff;
+    border-radius: 6px;
+    padding: 6px;
+}
 
 .cards .card1{
     background-image: url(./images/pic-1.png);
